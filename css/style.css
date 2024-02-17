@@ -147,8 +147,15 @@ nav a:hover {
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid and place it in the grid. */
 
-div:first-child {
+/* main.overview {
   display: grid;
+  align-items: start;
+} */
+
+div:first-child {
+  /* align-content: center;
+  align-items: start; */
+  width: auto;
   background-image: url('../images/header.jpg');
 }
 
