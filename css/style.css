@@ -153,9 +153,7 @@ first div in the grid and place it in the grid. */
 } */
 
 div:first-child {
-  /* align-content: center;
-  align-items: start; */
-  width: auto;
+  /* width: auto; */
   background-image: url('../images/header.jpg');
 }
 
